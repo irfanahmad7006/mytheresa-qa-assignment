@@ -20,7 +20,7 @@ Cypress is a desktop application that is installed on your machine. The desktop 
 
 - Clone the Repo
  ```
- git clone 
+ git clone https://github.com/irfanahmad7006/mytheresa-qa-assignment.git
  ```
 - Install the npm dependenceies
  ```
