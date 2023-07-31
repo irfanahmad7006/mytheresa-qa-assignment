@@ -1,0 +1,8 @@
+{
+  "correctFristName":"Irfan",
+  "correctEmail": "irfan.ahmad@maildrop.cc",
+  "correctPassword": "Mytheresa@123",
+  "inCorrectEmail": "irfan.ahmad1@maildrop.cc",
+  "inCorrectPassword": "Mytheresa@123567",
+  "loginErrMsg":"The credentials you have inserted are not correct"
+}
