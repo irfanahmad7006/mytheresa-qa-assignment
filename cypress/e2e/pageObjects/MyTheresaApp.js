@@ -13,6 +13,10 @@ class MyTheresaApp {
     // })
   }
 
+  userIsOnTheApp(){
+    cy.get('.icon__user').should('be.visible');
+  }
+
 
 
   checkJsError() {
