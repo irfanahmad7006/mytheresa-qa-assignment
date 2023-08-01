@@ -37,7 +37,8 @@ describe('Get the list of Open PRs and print it in a CSV format', () => {
                     })
 
                     const csvFormat = [headers, ...csv].join('\n');
-                    cy.log(csvFormat);            
+                    cy.log(csvFormat);
+                    cy.writeFile('csvFiles',csvFormat);            
                 } else {
                     cy.console.error('Not a correct Formatted response');
                 }
