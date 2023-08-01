@@ -26,6 +26,17 @@ Cypress is a desktop application that is installed on your machine. The desktop 
  ```
  npm install
  ```
+## Test cases information:
+1. `TestCase1.cy.js` This test covers below given scenarios:
+    - As a tester, I want to make sure no JavaScript errors when you visit https://www.mytheresa.com/de/en/men
+    - As a tester, I want to check if a page is returning the expected status code
+
+2. `TestCase2.cy.js` This test covers below given scenario:
+    - As a customer, I want to verify I can log in to https://www.mytheresa.com/de/en/men
+
+3. `TestCase3.cy.js` This test covers below given scenarios:
+    - As a product owner, I want to see how many open pull requests are there for our product. You can use https://github.com/appwrite/appwrite/pulls as an example product
+    - Output is a list of PR in CSV format with PR name, created date and author
 
 ## Launching and Running Tests in Cypress
 

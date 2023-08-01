@@ -3,6 +3,14 @@ class MyTheresaApp {
   acceptPrivacyPopup() {
     //will updated at the end if time permits.
     cy.log('will updated at the end if time permits.');
+    // cy.get('#privacy-iframe', {includeShadowDom:true})
+    // cy.document().then((doc)=>{
+    //   cy.log(doc.querySelectorAll('.tc-modal-open').length);
+    //   doc.querySelectorAll('.tc-modal-open')[0].lastChild
+
+      
+    //   console.log(doc.querySelectorAll('#privacy-iframe'));
+    // })
   }
 
 
