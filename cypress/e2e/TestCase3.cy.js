@@ -35,7 +35,6 @@ describe('Get the list of Open PRs and print it in a CSV format', () => {
                     const csv = openPrData.map((val) =>{
                         return Object.values(val).toString();                                             
                     })
-                    console.log(cvs);
 
                     const csvFormat = [headers, ...csv].join('\n');
                     cy.log(csvFormat);            
